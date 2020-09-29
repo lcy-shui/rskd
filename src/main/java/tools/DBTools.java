@@ -151,7 +151,7 @@ public class DBTools {
      * @param params
      * @return
      */
-    /*public static PageData exQueryByPage(String sql, Class cla, int page, int pageSize, Object... params) {
+    public static PageData exQueryByPage(String sql, Class cla, int page, int pageSize, Object... params) {
         // 问题:这里来加limit 还是传递过来之间就加好limit？
         // select .... from ... where ? ... limit ?,?
         //这里有一个sql 这个sql 查询总的记录数的   给表起别名  as t 别名
@@ -176,7 +176,7 @@ public class DBTools {
         PageData pageData = new PageData<>(data, page, totalCount, pageSize);
 
         return pageData;
-    }*/
+    }
 
     /**
      * 释放资源
